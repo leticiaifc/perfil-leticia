@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Monthoers;
+    src: url('Monthoers.otf');
+}
+
+
+:root{
+    /* VARIAVEIS */
+    --cor_fundo: #348888;
+    --cor_paragrafo: rgb(0, 0, 0);
+    --cor-titulo : #962B09;
+    --cor_link: #9EF8EE;
+    --cor_borda: #520120;
+    --fonte_principal: Monthoers;
+    --fonte_tamanho: 28px;
+}
+
+
+body{
+    background-color: var(--cor_fundo);
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto; 
+    /*0 -> CIMA|BAIXO*/
+    /*AUTO -> ESQUERDA|DIREITA*/
+    margin: 0 auto;
+    /* MARGIN-LEFT: AUTO;
+    MARGIN-RIGHT: AUTO;
+    MARGIN-TOP: AUTO;
+    MARGIN-BOTTOM: 0;*/
+    font-family: var(--fonte_principal);
+}
+
+div.imagem{
+    text-align: center;
+}
+
+h1{
+    color: var(--cor_borda);
+    font-family: Monthoers;
+    font-size: 350%;
+}
+
+p{
+    color: var(--cor_paragrafo);
+    text-align: justify;
+    font-family: Monthoers;
+    font-size: 20px;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor_link)
+
+}
+
+ul li {
+    color: brown;
+}
+
+
+ul li a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: var(--cor_link);
+    font-family: 'Monthoers';
+}
+
+img {
+    width: 150;
+    background-color: aquamarine;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: var(--cor_borda);
+    border-style: solid;
+}
